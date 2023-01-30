@@ -15,7 +15,7 @@
 		A6C7877B24FFFC8200BA3206 /* ScaleWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6C7877A24FFFC8200BA3206 /* ScaleWindow.xib */; };
 		A6C7877F24FFFE7000BA3206 /* ScaleWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C7877E24FFFE7000BA3206 /* ScaleWindowController.swift */; };
 		A6C78781250001CE00BA3206 /* Scale.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C78780250001CE00BA3206 /* Scale.swift */; };
-		A6D519E8250B663A00BABDCA /* ConcurrentMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D519E7250B663A00BABDCA /* ConcurrentMap.swift */; };
+		A6D519E8250B663A00BABDCA /* Array+ConcurrentMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D519E7250B663A00BABDCA /* Array+ConcurrentMap.swift */; };
 		A6D519EA250B665D00BABDCA /* Canceller.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D519E9250B665D00BABDCA /* Canceller.swift */; };
 		A6FD88A8250165AC009F4047 /* MandelbrotImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6FD88A7250165AC009F4047 /* MandelbrotImageView.swift */; };
 		A6FD88AA25016AA3009F4047 /* MandelbrotPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6FD88A925016AA3009F4047 /* MandelbrotPoint.swift */; };
@@ -34,7 +34,7 @@
 		A6C7877A24FFFC8200BA3206 /* ScaleWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ScaleWindow.xib; sourceTree = "<group>"; };
 		A6C7877E24FFFE7000BA3206 /* ScaleWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaleWindowController.swift; sourceTree = "<group>"; };
 		A6C78780250001CE00BA3206 /* Scale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scale.swift; sourceTree = "<group>"; };
-		A6D519E7250B663A00BABDCA /* ConcurrentMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcurrentMap.swift; sourceTree = "<group>"; };
+		A6D519E7250B663A00BABDCA /* Array+ConcurrentMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+ConcurrentMap.swift"; sourceTree = "<group>"; };
 		A6D519E9250B665D00BABDCA /* Canceller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Canceller.swift; sourceTree = "<group>"; };
 		A6FD88A7250165AC009F4047 /* MandelbrotImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MandelbrotImageView.swift; sourceTree = SOURCE_ROOT; };
 		A6FD88A925016AA3009F4047 /* MandelbrotPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MandelbrotPoint.swift; sourceTree = "<group>"; };
@@ -132,7 +132,7 @@
 		A6D519E6250B661400BABDCA /* Misc */ = {
 			isa = PBXGroup;
 			children = (
-				A6D519E7250B663A00BABDCA /* ConcurrentMap.swift */,
+				A6D519E7250B663A00BABDCA /* Array+ConcurrentMap.swift */,
 				A6D519E9250B665D00BABDCA /* Canceller.swift */,
 			);
 			path = Misc;
@@ -209,7 +209,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A6D519E8250B663A00BABDCA /* ConcurrentMap.swift in Sources */,
+				A6D519E8250B663A00BABDCA /* Array+ConcurrentMap.swift in Sources */,
 				A6FD88AC25016B13009F4047 /* Mandelbrot.swift in Sources */,
 				A6FD88A8250165AC009F4047 /* MandelbrotImageView.swift in Sources */,
 				A6C7877F24FFFE7000BA3206 /* ScaleWindowController.swift in Sources */,
